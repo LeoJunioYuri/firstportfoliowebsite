@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<div>
+	<style>
+	.titulo-cor {
+	color: #222;
+	font-family: Lobster;
+	}
+	
+	.cor-frase {
+	color: #222;
+	font-family: Monospace;
+	}
+	
+	.background-site
+{
+    background-image: url("http://pic.photo-aks.com/photo/nature/cloud-sky/large/rainbow_in_the_cloud.jpg");
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+	
+	.backgrounds-color {
+	background-color: #555;
+	}
+}
+
+	.p {
+	color: #000;
+	font-family = Cursive;
+	font-size = 20px;
+	}
+	
+	.h3 {
+	font-family = Lobster, ;
+	}
+	
+	ul.menu{
+    text-align: center; /* centraliza na horizontal */
+        }
+    ul.menu li{
+    display: inline-block; /* centraliza na horizontal */
+	margin: 50px;
+	}
+
+</style>
+    <head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Leonardo">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<title>Leonardo Junio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="https://pbs.twimg.com/profile_images/847612529052229634/hRu10WTu.jpg">
+		
+		
+		<!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+		
+    </head>
+    <body>
+<div class = "background-site">
+
+<h1 class = "titulo-cor"><center>EU SOU LEONARDO</center></h1>
+
+
+
+
+
+
+
+
+
+<div class="menu navbar-fixed-top">
+  <div class="container">
+          <nav>
+            <ul class="nav nav-justified menu">
+               <li class="hidden-md hidden-lg"><a href="#homephone">HOME</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#portfolio">Experiência</a></li>
+              <li><a href="#contact">Contato</a></li>
+              <!--<li><a href="portugues.html">versão em português</a></li>-->
+
+            </ul>
+          </nav>
+    </div>
+</div>
+
+<div class="home hidden-xs hidden-sm" id="home" >
+
+<a class="page-scroll angle-down" href="#about"><i class="fa fa-angle-down"></i></a>
+<a class="page-scroll angle-down" href="#portfolio"><i class="fa fa-angle-down"></i></a>
+
+
+</div>
+
+<div class="homephone hidden-md hidden-lg" id="homephone"> </div>
+
+
+
+
+
+
+
+<section class="resume" id="resume">
+
+   <div class="container padding-top-30">
+
+ 
+  </div>
+
+
+   
+  
+</section>
+
+<section class="about" id="about">
+
+   <div class="container padding-top-80">
+
+ 
+  </div>
+</section>
+
+
+<section class="portfolio" id="portfolio">
+
+   <div class="container padding-top-120">
+
+ 
+  </div>
+  
+  <section class="contact" id="contact">
+
+   <div class="container padding-bottom-1">
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Frase inicial -->
+<blockquote class="blockquote-reverse cor-frase">
+  <h3 class="blockquote-reverse cor-frase">"A imaginação é mais importante que a ciência, porque a ciência é limitada, ao passo que a imaginação abrange o mundo inteiro."</h3>
+  <footer> -Albert Einstein</footer>
+</blockquote>
+ 
+
+<!-- titulo e imagem da descrição do Leonardo -->
+<div class="container-fluid">
+  <h2 class="titulo-cor"><center>Quem é Leonardo?</center></h2>
+<!-- Imagem -->
+  <a><center><img src="https://pbs.twimg.com/profile_images/847612529052229634/hRu10WTu.jpg" height="175" width="225" alt="Leonardo sempre gosta de pensar "></center></a>
+  
+  
+  <!-- Descrição do Leonardo -->
+	<p>Leonardo nasceu em Belo horizonte em Janeiro de 2000, mas foi criado durante quase toda sua vida em Lavras. Filho de Francesco Basso e Zilda da Silva, Junio desenvolveu aptidão pelo computador muito cedo, aos 4 anos. Desde então nunca parou de explorar.</p>
+	<p>Aos 13, entrou em um curso de suporte técnico que mudou sua vida. Sua maior inspiração eram seus professores.</p><p>Aos 15, aprendeu a programar e se apaixonou. Sempre autodidata, nunca parou e não pretende parar de aprender sempre mais...</p>
+	
+	<!-- Fornece peso visual extra e identifica a ação primária em um conjunto de botões -->
+<i class="fa fa-thumbs-up"><button class="btn btn-block btn-primary">Gostei!</i></button>
+	
+<button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button>
+    </div>
+	
+		<!-- Parte que fala no que o Leo gosta -->
+<h3 class = "titulo-cor">Leonardo gosta de:</h3>
+<ul>
+    <li>Conhecer novas pessoas</li>
+    <li>Programar</li>
+    <li>Viajar</li>
+</ul>
+
+ 
+
+  <!-- corpo do site -->
+<h3 class = "titulo-cor">Habilidades do Leonardo</h3>
+<ol>
+    <li>Programação em <span class="text-danger">Python e HTML e CSS</span></li>
+    <li>Suporte Técnico</li>
+    <li>Fazer você rir</li>
+</ol>
+
+  <!-- Parte dos contatos -->
+<center>
+<h1>DIGA UM OI!</h1>  
+</center>
+  
+  
+  
+  
+  
+  
+<center>  
+	<p>Acesse meu <a href="https://www.facebook.com/leojunioyuri">Perfil no Facebook</a></p>
+	<p>Acesse meu <a href="https://www.instagram.com/leojunioyuri">Perfil no Instagram</a></p>
+	<p>Acesse meu <a href="https://www.github.com/leojunioyuri">Perfil no GitHub</a></p>
+	<p>Adicione-me no Snap: leonardojysb</p>
+	
+    <button type="submit" class="btn btn-block btn-primary">Contato</button>
+	
+</center>
+
+</div>
+
+<!-- smooth scrolling script -->
+<script>
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+    }, 500);
+    return false;
+});
+</script>
+
+    </body>
+</div>
+</html>
